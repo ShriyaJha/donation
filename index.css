@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Patrick+Hand&display=swap" rel="stylesheet');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://www.nortonrosefulbright.com/-/media/images/nrf/thought-leadership/us/us_22641_social-media-image_coronavirus-force-majeure_masthead_1920x1080px.jpg?la=en&revision=1756de03-940b-46af-a34d-57ab444ee2f1&hash=B526EA917CD5BC31152BBDAFACE2D2F590ED0421");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-weight: 400;
+  font-family: 'Patrick Hand', cursive;
+  margin:auto;
+  margin-top:auto;
+  text-align: left;
+}
+
+.box{
+  width: 550px;
+  margin: 100px auto 0px auto;
+  border-style: solid;
+  border-width: 10px;
+  border-radius:  50px;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px;
+  border-color:slategrey;
+}
+.box h1,p{
+  margin: 20px;
+  padding: 10px 0px;
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Patrick Hand', cursive;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.navbar-light {
+  background-color:aliceblue;
+  box-shadow: 10px 14px 80px rgba(34, 35, 58, 0.2);
+  height: 70px;
+  color: aliceblue;
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: center;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: 10%;
+  background: #ffffff;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+  transition: all .3s;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: white;
+  box-shadow: none;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 10%;
+  line-height: 5;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 10px;
+  color: black;
+  
+}
+
+.forgot-password a {
+  color: #167bff;
+  
+  color:black;
+}
